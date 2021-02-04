@@ -1,0 +1,5 @@
+ip routing
+archive
+ path flash:/archive/
+ maximum 14
+ write-memory

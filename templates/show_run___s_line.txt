@@ -1,0 +1,16 @@
+errdisable recovery cause inline-power
+line con 0
+ exec-timeout 15 0
+ logging synchronous
+ stopbits 1
+line aux 0
+line vty 0 4
+ access-class 30 in
+ exec-timeout 15 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+ access-class 30 in
+ exec-timeout 15 0
+ logging synchronous
+ transport input ssh

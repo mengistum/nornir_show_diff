@@ -1,0 +1,5 @@
+clock timezone PST -8 0
+clock summer-time PDT recurring
+udld aggressive
+errdisable recovery cause udld
+ udld port disable

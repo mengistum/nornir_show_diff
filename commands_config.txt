@@ -1,3 +1,0 @@
-show ip int br | ex un
-show ip prot sum
-show version | i uptime

@@ -1,3 +1,6 @@
-show ip int br | ex un
-show ip prot sum
-show version | i uptime
+show vlan summary
+show run | s spanning
+show run | s line
+show run | s vtp|mtu|lldp
+show run | s clock|udld
+show run | s ip routing|archive
